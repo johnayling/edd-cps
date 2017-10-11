@@ -6,19 +6,24 @@ EDD cart.
 
 #Dependencies
 
-Easy Digital Downloads (EDD)
-Copy Protect Software v.1.6.3+ (CPS)
+Easy Digital Downloads (EDD) - https://easydigitaldownloads.com/
+
+Copy Protect Software v.1.6.3+ (CPS) - https://copyprotectsoftware.com
 
 #Install
 
 Download files and zip
+
 Make sure zip file contains 'edd-cps' parent folder
+
 Install zip through WordPress Admin - Add New Plugin, or unzipped via file transfer to wp-content/plugins/edd-cps
 
 #Configure
 
 In CPS License Manager - License Generators
+
 Create a license generator for each EDD product
 
 In EDD Products
-Add the license generator ID in the field added to the Product Screen
+
+Add the license generator ID in the field added to each Product Screen
