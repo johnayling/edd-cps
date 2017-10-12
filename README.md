@@ -27,3 +27,6 @@ Create a license generator for each EDD product
 *In EDD - Products*
 
 Add the license generator ID in the field added to each Product Screen
+
+**#Credits**
+https://wordpress.org/plugins/cmb2/
