@@ -4,13 +4,13 @@ WordPress plugin to connect Easy Digital Downloads with Copy Protect Software li
 Middleware plugin that allows the generation of 1 or more CPS software licenses from a payment processed
 EDD cart.
 
-#Dependencies
+**#Dependencies**
 
 Easy Digital Downloads (EDD) - https://easydigitaldownloads.com/
 
 Copy Protect Software v.1.6.3+ (CPS) - https://copyprotectsoftware.com
 
-#Install
+**#Install**
 
 Download files and zip
 
@@ -18,12 +18,12 @@ Make sure zip file contains 'edd-cps' parent folder
 
 Install zip through WordPress Admin - Add New Plugin, or unzipped via file transfer to wp-content/plugins/edd-cps
 
-#Configure
+**#Configure**
 
-In CPS License Manager - License Generators
+*In CPS License Manager - License Generators*
 
 Create a license generator for each EDD product
 
-In EDD Products
+*In EDD - Products*
 
 Add the license generator ID in the field added to each Product Screen
