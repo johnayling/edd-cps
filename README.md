@@ -22,7 +22,7 @@ Install zip through WordPress Admin - Add New Plugin, or unzipped via file trans
 
 *In CPS License Manager - License Generators*
 
-Create a license generator for each EDD product
+Create a license generator for each EDD download
 
 *In EDD - Downloads*
 
