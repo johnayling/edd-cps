@@ -24,9 +24,9 @@ Install zip through WordPress Admin - Add New Plugin, or unzipped via file trans
 
 Create a license generator for each EDD product
 
-*In EDD - Products*
+*In EDD - Downloads*
 
-Add the license generator ID in the field added to each Product Screen
+Add the license generator ID in the field added to each Download Screen
 
 **#Credits**
 
