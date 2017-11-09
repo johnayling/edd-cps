@@ -51,17 +51,18 @@
 		function generate_cps_license($payment_id)
 		{
 			$payment_meta = edd_get_payment_meta( $payment_id );
+			$user_info = maybe_unserialize($payment_meta['user_info']);
 
-			$email = $payment_meta->email;
-			$name = $payment_meta->first_name.' '.$payment_meta->last_name;
-			$transaction_id = $payment_meta->transaction_id;
+			$email = $payment_meta['email'];
+			$name = $user_info['first_name'].' '.$user_info['last_name'];
+			$transaction_id = esc_attr(edd_get_payment_transaction_id($payment_id));
 
 			$cps_api = new copyprotectsoftwareapi();
 
 			$cart_items = edd_get_payment_meta_cart_details( $payment_id );
 			foreach($cart_items as $item)
 			{
-				$download_id = $item->id;
+				$download_id = $item['id'];
 				$license_gen_id = get_post_meta( $download_id, '_eddcps_licensegenid', true );
 
 				$cps_api->generate_license($license_gen_id,$name, $email, $transaction_id);
